@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Документ без названия</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css">
+		<link type="text/css" rel="stylesheet" href="css/magnific-popup.css">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<style>
+			ul.ul_st {
+			margin: 30px;
+			}
+			ul.ul_st > li {
+			margin-bottom: 20px;
+			list-style: none;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="ul_st">
+			<li><a href="#choosecity" class="button1 open-popup-link">Выбор города</a></li>
+			<li><a href="#kuponbl" class="button1 open-popup-link">Вы получили купон</a></li>
+			<li><a href="#registration_bl" class="button1 open-popup-link">регистрация участника</a></li>
+			<li><a href="#registration_company_bl" class="button1 open-popup-link">регистрация Компании</a></li>
+			<li><a href="#pay_raz" class="button1 open-popup-link">Оплата размещения</a></li>
+		</ul>
+		<div id="choosecity" class="choosecity popup_width_550 mfp-hide">
+			<div class="title_popup">
+				<div class="pm_i"><span></span> Введите название города</div>
+			</div>
+			<div class="city_block">
+				<ul>
+					<li><a href="#">Тюмень</a></li>
+					<li><a href="#">Волгоград</a></li>
+					<li><a href="#">Екатеринбург</a></li>
+					<li><a href="#">Казань</a></li>
+					<li><a href="#">Калуга</a></li>
+					<li><a href="#">Красноярск</a></li>
+					<li><a href="#">Москва</a></li>
+					<li><a href="#">Нижний Новгород</a></li>
+					<li><a href="#">Новосибирск</a></li>
+					<li><a href="#">Пермь</a></li>
+					<li><a href="#">Самара</a></li>
+					<li><a href="#">Санкт-Петербург</a></li>
+					<li><a href="#">Ставрополь</a></li>
+				</ul>
+			</div>
+		</div>
+        
+        <div id="kuponbl" class="kuponbl popup_width_725 mfp-hide">
+			<div class="title_popup">
+				<h3>Вы получили купон</h3>
+			</div>
+			<div class="kupons_bl">
+            	<div class="line_kupons">
+                	<div class="left goods_pop">
+                    	<div class="in_goods">
+							<img src="img/g5.jpg" class="img_goods">
+							<div class="sale_bl sale_price"><font>10 000</font><br>1 000<span>-90%</span></div>
+							<div class="shadow"></div>
+						</div>
+                    </div>
+                    <div class="left cont_kupon">
+                    	<h4>Динамичное сафари на квадроцикле для двоих или четверых с компанией</h4>
+                        <p>Купон действителен до: 28 марта 2016</p>
+                    </div>
+                    <div class="right icons_kupon">
+                    	<div class="left"><a href="#"><span class="print_i"></span></a></div>
+                    	<div class="left"><a href="#"><span class="save_i"></span></a></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ff_kupons text-center">
+            	<a href="#" class="button1">назад к акции</a>
+            </div>
+		</div>
+        
+        <div id="registration_bl" class="registration_bl popup_width_370 mfp-hide">
+			<div class="title_popup">
+				<h3>регистрация участника</h3>
+			</div>
+            <div class="bg_popup_grey">
+            	<form>
+                	<input type="text" class="input_text" placeholder="Фамилия Имя">
+                	<input type="email" class="input_text" placeholder="Е-mail">
+                    <div class="switch">
+                        <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                        <label for="cmn-toggle-2"></label>
+                        <span>я принимаю условия <a href="#">соглашения</a></span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="text-center">
+                    	<input type="submit" class="button2" value="Зарегистрироваться">
+                    </div>
+                </form>
+            </div>
+            <div class="bg_popup_white text-center">
+            	<h4>регистрация через соцсети</h4>
+            	<ul class="network">
+                    <li><a href="#"><img src="img/vk.png"></a></li>
+                    <li><a href="#"><img src="img/od.png"></a></li>
+                    <li><a href="#"><img src="img/youtube.png"></a></li>
+                    <li><a href="#"><img src="img/inst.png"></a></li>
+                </ul>
+                <a href="#" class="button3">уже зарегистрированны?</a>
+            </div>
+		</div>
+        
+        <div id="registration_company_bl" class="registration_company_bl popup_width_370 mfp-hide">
+			<div class="title_popup">
+				<h3>регистрация Компании</h3>
+			</div>
+            <div class="bg_popup_grey">
+            	<form>
+                	<input type="text" class="input_text" placeholder="Название компании">
+                	<input type="text" class="input_text" placeholder="Контактное лицо">
+                	<input type="tel" class="input_text" placeholder="Номер телефона">
+                	<input type="email" class="input_text" placeholder="Е-mail">
+                    <div class="switch">
+                        <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                        <label for="cmn-toggle-3"></label>
+                        <span>я принимаю условия <a href="#">соглашения</a></span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="text-center">
+                    	<input type="submit" class="button2" value="Зарегистрироваться">
+                    </div>
+                </form>
+            </div>
+		</div>
+        
+        <div id="pay_raz" class="pay_raz popup_width_725 mfp-hide">
+			<div class="title_popup">
+				<h3>Оплата размещения</h3>
+			</div>
+			<div class="pay_razn_bl">
+            	<div class="pr_line">
+                	<div class="left name_pr">«Easy»</div>
+                    <div class="left time_pr">Срок размещения 1 месяц</div>
+                    <div class="right price_pr">2990 ₽</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="total_price text-right">
+                	<h4>Итого к оплате: 2990 рублей 00 копеек</h4>
+                </div>
+            </div>
+            <div class="ff_kupons ff_ch_type text-center">
+            	<div class="ch_pay">
+                	<a href="#"><div class="cc_pay">
+                    	<p>Для юридических лиц</p>
+                        <h4>Выставить счет</h4>
+                    </div></a>
+                	<a href="#"><div class="cc_pay">
+                    	<p>Для юридических лиц</p>
+                        <h4>Выставить счет</h4>
+                    </div></a>
+                </div>
+            </div>
+		</div>
+        
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script src="js/jquery.selectbox.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script>
+			$('.open-popup-link').magnificPopup({
+			 type:'inline',
+			 midClick: true
+			});
+		</script>
+		<script src="js/js.js"></script>
+	</body>
+</html>
